@@ -5,7 +5,7 @@ Implémentation en C , en utilisant la librairie GMP , deux tests de primalité 
 ### prérequis 
 Afin de pouvoir compilé ces deux Tests , il faut au préalable avoir installé la bibliothèque **GNU MP**
 
-###Installation de GMP:
+### Installation de GMP:
 * Récupérer l'archive de [GMP](https://gmplib.org/#DOWNLOAD) 
 * Extraire le contenu de l'archive
 * Compiler la bibliothèque
@@ -22,7 +22,7 @@ sudo make install
 Vous pouvez trouver le manuel d'utilisation [ici](https://gmplib.org/gmp-man-6.2.0.pdf)
 
 
-###Complitaion 
+### Complitaion 
 pour executer le fichier **Fermat.c** sur le Terminale Taper :
 ```
 gcc -Wall -o Fermat Fermat.c -lgmp 

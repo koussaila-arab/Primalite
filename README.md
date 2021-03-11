@@ -3,7 +3,8 @@ Implémentation en C , en utilisant la librairie GMP , deux tests de primalité 
 - **Le test de Fermat**  et le **test de Miller-Rabin**
 
 ### prérequis 
-Afin de pouvoir compilé ces deux Tests , il faut au préalable avoir installé la bibliothèque **GNU MP**
+Afin de pouvoir compilé ces deux Tests , il faut au préalable avoir installé la bibliothèque **GNU MP** .
+
 
 ### Installation de GMP:
 * Récupérer l'archive de [GMP](https://gmplib.org/#DOWNLOAD) 
@@ -19,11 +20,11 @@ make check
 ```
 sudo make install 
 ```
-Vous pouvez trouver le manuel d'utilisation [ici](https://gmplib.org/gmp-man-6.2.0.pdf)
+Vous pouvez trouver le manuel d'utilisation [ici .](https://gmplib.org/gmp-man-6.2.0.pdf)
 
 
 ### Complitaion 
-pour executer le fichier **Fermat.c** sur le Terminale Taper :
+pour executer le fichier **Fermat.c** vous devez taper sur le Terminale la commande :
 ```
 gcc -Wall -o Fermat Fermat.c -lgmp 
 ```
